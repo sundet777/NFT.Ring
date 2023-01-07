@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+a:hover {
+    font-weight: 700;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url(../images/header-bg.jpg) center center / cover no-repeat;
+    height: 100vh;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-title {
+    margin-left: -250px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.menu_link {
+    padding-right: 36px;
+    line-height: 35px;
+}
+
+.nav-btn {
+    color: #F4F4F4;
+    font-weight: 700;
+    line-height: 35px;
+    padding: 6px 26px 7px 26px;
+    background: linear-gradient(132.95deg, #FFC301 9.31%, #FF6533 79.4%);
+    box-shadow: 15px 15px 35px rgba(226, 142, 15, 0.18);
+    border-radius: 10px;
+}
+
+.nav-btn:hover {
+    background: #F4F4F4;
+    color: #FF8E1E;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 68px;
+    padding-top: 60px;
+}
+
+.header-content__subtitle {
+    opacity: 0.8;
+    padding-bottom: 26px;
+}
+
+.header-content__btn-1 {
+    color: #F4F4F4;
+    font-weight: 700;
+    line-height: 35px;
+    padding: 6px 35px 7px 35px;
+    background: linear-gradient(132.95deg, #FFC301 9.31%, #FF6533 79.4%);
+    box-shadow: 15px 15px 35px rgba(226, 142, 15, 0.18);
+    border-radius: 10px;
+}
+
+.header-content__btn-1:hover {
+    background: #F4F4F4;
+    color: #FF8E1E;
+}
+
+.header-content__btn-2 {
+    color: #F4F4F4;
+    font-weight: 700;
+    line-height: 35px;
+    padding: 6px 35px 7px 35px;
+    border: 1px solid #FF8E1E;
+    border-radius: 10px;
+    background: none;
+}
+
+.header-content__btn-2:hover {
+    background: #F7F7F7;
+    color: #232222;
+}
+
+.header-content__div {
+    width: 255px;
+    height: 192px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(140.08deg, #9CD2EE 3.42%, #00ACEE 95.98%);
+    box-shadow: -46px -61px 36px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: 317px;
+    padding: 20px 43px 34px 34px;
+}
+
+.eth-price {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin-top: -34px;
+}
+
+.eth-women {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.fs {
+    color: #232222;
+    text-align: center;
+    background: #F7F7F7;
+    margin-top: -24px;
+    padding: 80px 0 64px 0;
+}
+
+.fs-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 68px;
+}
+
+.fs-text {
+    line-height: 33px;
+    padding-bottom: 16px;
+}
+
+.fs .container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.fs-card__green:hover {
+    background: green;
+    box-shadow: 12px 18px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    color: #F7F7F7;
+}
+
+.fs-card__red:hover {
+    background: red;
+    box-shadow: 12px 18px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    color: #F7F7F7;
+}
+
+.fs-card__purple:hover {
+    background: purple;
+    box-shadow: 12px 18px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    color: #F7F7F7;
+}
+
+.fs-card__blue:hover {
+    background: blue;
+    box-shadow: 12px 18px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    color: #F7F7F7;
+}
+
+.exclusive-nft {
+    color: #232222;
+    padding: 16px 0 80px 0;
+}
+
+.exclusive-nft__title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 68px;
+}
+
+.exclusive-nft__text {
+    text-align: center;
+    line-height: 33px;
+    padding-bottom: 16px;
+}
+
+.exclusive-nft .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.exclusive-nft__card {
+    width: 310px;
+    height: 420px;
+    background: #F4F4F4;
+    box-shadow: 12px 18px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.exclusive-nft__card-title {
+    margin-top: -2px;
+}
+
+.exclusive-nft__card-price {
+    display: flex;
+    margin-top: -32px;
+    gap: 16px;
+}
+
+.exclusive-nft__price {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 42px;
+    color: #FF8E1E;
+}
+
+.exclusive-nft__author {
+    margin-top: -12px;
+    display: flex;
+    gap: 17px;
+}
+
+.news {
+    color: #232222;
+    margin-bottom: 80px;
+}
+
+.news-title {
+    margin-left: 115px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 68px;
+}
+
+.news-text {
+    margin-left: 115px;
+    line-height: 33px;
+    padding-bottom: 12px;
+}
+
+.news-btn {
+    margin-top: -180px;
+    position: absolute;
+    right: 158px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #FFFFFF;
+    padding: 6px 34px 7px 34px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(140.08deg, #9CD2EE 3.42%, #00ACEE 95.98%);
+    border-radius: 10px;
+    border: none;
+}
+
+.news-btn:hover {
+    background: #FF6533;
+    color: #F7F7F7;
+}
+
+.news-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nft-category {
+    color: #232222;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.nft-category__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 68px;
+}
+
+.nft-category__text {
+    line-height: 33px;
+    padding-bottom: 12px;
+}
+
+.nft-marks {
+    height: 148px;
+    background: #F4F4F4;
+    padding: 59px 0 10px 0;
+}
+
+.nft-marks .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 53px;
+}
+
+.register {
+    margin-top: -40px;
+    background: url(../images/register-bg.jpg) center center / cover no-repeat;
+    height: 618px;
+    color: #232222;
+}
+
+.register-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 68px;
+    padding-top: 232px;
+}
+
+.register-text {
+    line-height: 33px;
+    padding-bottom: 12px;
+    width: 467px;
+}
+
+.register-btn {
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 35px;
+    padding: 7px 28px 6px 27px;
+    background: linear-gradient(132.95deg, #FFC301 9.31%, #FF6533 79.4%);
+    border-radius: 10px;
+    border: none;
+}
+
+.register-btn:hover {
+    background: #F7F7F7;
+    color: #FF6533;
+}
+
+.footer {
+    padding: 76px 0 95px 0;
+}
+
+.footer .container {
+    color: #232222;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    position: absolute;
+    margin: -40px 0 0 50px;
+}
+
+.footer-link__title {
+    font-weight: 700;
+    line-height: 33px;
+}
+
+.footer-block__1 {
+    width: 373px;
+}
+
+.footer-block__2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-block__3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-block__4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link__title-text {
+    color: #232222;
+    margin-bottom: 10px;
+}
